@@ -30,8 +30,8 @@ const Books = () => {
             <span>{book.price}</span>
           </div>
         ))}
-        <button><Link to="/add"> Add New Book </Link></button>
       </div>
+        <button><Link to="/add"> Add New Book </Link></button>
     </div>
   );
 };
