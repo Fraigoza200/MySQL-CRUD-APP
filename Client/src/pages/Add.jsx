@@ -1,6 +1,6 @@
 import React from 'react';
-import { useState, } from 'react';
-import { useNavigate} from 'react-router-dom'
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
 const Add = () => {
@@ -56,7 +56,9 @@ const Add = () => {
         onChange={handleChange}
         name="cover"
       />
-      <button onClick={handleClick}>Add</button>
+      <button className="formButton" onClick={handleClick}>
+        Add
+      </button>
     </div>
   );
 };

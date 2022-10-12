@@ -42,3 +42,22 @@ img {
   object-fit: cover;
   background-color: aqua;
 }
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input{
+  width: 250px;
+  padding: 10px;
+  border: 1px solid grey;
+}
+.formButton{
+  border: none;
+  padding: 10px;
+  background-color: aqua;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
